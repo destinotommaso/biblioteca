@@ -45,4 +45,7 @@ class Scaffale{
                 System.out.println(libri[i]);
             }
     }
+    public String toString(){
+        return String.format("\nid scaffale: %s", id);
+    }
 }
